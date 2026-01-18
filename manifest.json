@@ -1,0 +1,19 @@
+{
+  "name": "BcReader",
+  "icon": "icon.png",
+  "version": "1.0.0",
+  "description": "电子书传输工具，支持将 TXT/EPUB 书籍传输到小米手环",
+  "author": "姜北尘",
+  "website": "https://github.com/BeiChen-CN/com.bandbbs.ebook",
+  "entry": "main.js",
+  "api_level": 1,
+  "permissions": [
+    "event",
+    "interconnect",
+    "lifecycle",
+    "filesystem",
+    "native",
+    "ui",
+    "thirdpartyapp"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "bcreader-astrobox-plugin",
+  "version": "1.0.0",
+  "description": "BcReader plugin for AstroBox",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "rspack build",
+    "dev": "rspack build --watch"
+  },
+  "dependencies": {
+    "astrobox-plugin-sdk": "latest"
+  },
+  "devDependencies": {
+    "@rspack/cli": "latest",
+    "@rspack/core": "latest",
+    "typescript": "^5.0.0"
+  }
+}
