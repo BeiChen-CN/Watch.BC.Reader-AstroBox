@@ -1,28 +1,6 @@
-<<<<<<< HEAD
 # BcReader AstroBox Plugin
 
 将电子书传输到小米手环的 AstroBox 插件。
-
-## 功能特性
-
-- 支持 TXT 格式电子书
-- 自动章节分割
-- 分块传输（10KB/块）
-- 实时传输进度显示
-- 与手环快应用 `Watch.BC.Reader` 通信
-
-## 构建
-
-```bash
-pnpm install
-pnpm build
-```
-
-## 安装
-
-1. 构建插件生成 `dist/entry.js`
-2. 将 `manifest.json` 和 `dist/entry.js` 打包
-3. 在 AstroBox 中安装插件
 
 ## 使用
 
